@@ -16,7 +16,8 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'my-app',
             //template:'<h1>My First Angular 2 app.</h1>',
-            templateUrl: 'app/views/start.html'
+            //templateUrl :'app/views/start.html'
+            templateUrl: 'app/views/3rows.html'
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
