@@ -10,7 +10,7 @@ export class HtmlEditorDirective {
         tinymce.init({
             selector: '.htmlEditor',
             theme: 'modern',
-            menubar: false,
+            menubar: true,
             statusbar: false,
             //inline:true,
             //fixed_boolbar_container:'#textEditorToolbar',
@@ -31,13 +31,13 @@ export class HtmlEditorDirective {
                 console.log("Editor: '" + editor.id + "' is now initialized.");
 
                 //editor.ui.Toolbar().renderTo('#textEditorToolbar');
-                 var $toolbar = $('div.mce-toolbar-grp');// $('#' + editor.id + '_external');
+                //  var $toolbar = $('div.mce-toolbar-grp');// $('#' + editor.id + '_external');
 
-                if ($toolbar){
-                    console.log( $toolbar);
-                    console.log('Append toolbar to target.');
-                    $toolbar.appendTo('#textEditorToolbar');
-                }
+                // if ($toolbar){
+                //     console.log( $toolbar);
+                //     console.log('Append toolbar to target.');
+                //     $toolbar.appendTo('#textEditorToolbar');
+                // }
             },
             setup: function (editor) {
                 editor.on('init', function (e) {
