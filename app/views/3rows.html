@@ -1,9 +1,4 @@
-<header>
-    <!--<div class="btn-group" role="group">
-        <button type="button" class="btn btn-secondary" data-toggle="tooltip" title="Undo" data-placement="bottom"><i class="fa fa-undo" aria-hidden="true"></i></button>
-        <button type="button" class="btn btn-secondary" data-toggle="tooltip" title="Redo" data-placement="bottom"><i class="fa fa-repeat" aria-hidden="true"></i></button>
-        
-    </div>-->
+<header>   
     <div id="textEditorToolbar" class="editorToolbar">
 
     </div>
@@ -13,9 +8,10 @@
         <input type="text" placeholder="Enter post title" tabindex="1" />
     </div>
     <div class="postBody" tabindex="2">
-        <textarea id="postContent" class="htmlEditor" HtmlEditor>
+
+        <div id="postContent" class="htmlEditor" HtmlEditor>
             {{postContent}}
-        </textarea>
+        </div>
     </div>
 </div>
 <footer>
