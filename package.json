@@ -57,7 +57,7 @@
         "gulp-concat": "2.6.0",
         "del": "2.2.2",
         "run-sequence": "~1.2.2",
-        "merge2": "~1.0.2",
-        "browser-sync": "2.14.3"
+        "merge2": "~1.0.2"
+        
     }
 }
