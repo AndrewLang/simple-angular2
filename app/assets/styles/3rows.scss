@@ -54,3 +54,7 @@
       overflow-y: scroll;
       max-height: calc(100% - #{$body-height});
   }
+  
+  .mce-tinymce-inline{
+  width: 100% !important;
+}

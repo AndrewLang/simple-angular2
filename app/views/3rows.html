@@ -9,11 +9,22 @@
     </div>
     <div class="postBody" tabindex="2">
 
-        <div id="postContent" class="htmlEditor" HtmlEditor>
-            {{postContent}}
+        <div id="postContent" class="htmlEditor" HtmlEditor [innerHtml]=postContent>
+            
         </div>
     </div>
 </div>
 <footer>
     <h2>Statusbar area</h2>
 </footer>
+
+<!--
+
+    1. Install typings 
+    npm install typings --global
+
+    2. Install typings for jquery
+    typings install dt~jquery --global --save
+
+    3.Typeing for Tinymce
+-->
